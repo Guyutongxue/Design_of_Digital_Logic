@@ -1,0 +1,14 @@
+# https://support.xilinx.com/s/article/61232?language=en_US
+
+# Behaivor simulation
+/lab0.sim/
+
+# Synthesis & Implemtation
+/lab0.runs/
+
+# Hardware
+/lab0.hw/
+
+# Others
+/lab0.ip_user_files/
+/lab0.cache/
