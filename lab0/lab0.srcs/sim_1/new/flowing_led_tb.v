@@ -1,29 +1,29 @@
 `timescale 1ns / 1ps
 
 module flowing_led_tb();
-    reg clk;
-    reg rst;
-    wire [3:0] led;
+    reg clk_gy;
+    reg rst_gy;
+    wire [3:0] led_gy;
 
     flowing_led u0(
-        .clk(clk),
-        .rst(rst),
-        .led(led));
+        .clk_gy(clk_gy),
+        .rst_gy(rst_gy),
+        .led_gy(led_gy));
 
-    parameter PERIOD = 10;
+    parameter PERIOD_gy = 10;
 
     always begin
-        clk = 1'b0;
-        #(PERIOD/2) clk = 1'b1;
-        #(PERIOD/2);
+        clk_gy = 1'b0;
+        #(PERIOD_gy/2) clk_gy = 1'b1;
+        #(PERIOD_gy/2);
     end
 
     initial begin
-        clk = 1'b0;
-        rst = 1'b0;
+        clk_gy = 1'b0;
+        rst_gy = 1'b0;
         #100;
-        rst = 1'b1;
+        rst_gy = 1'b1;
         #100;
-        rst = 1'b0;
+        rst_gy = 1'b0;
     end
 endmodule
