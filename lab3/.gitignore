@@ -1,0 +1,17 @@
+# https://support.xilinx.com/s/article/61232?language=en_US
+
+# Behaivor simulation
+/lab3.sim/
+
+# Synthesis & Implemtation
+/lab3.runs/
+
+# Hardware
+/lab3.hw/
+
+# Others
+/lab3.ip_user_files/
+/lab3.cache/
+
+# iverilog simulation
+/sim/
