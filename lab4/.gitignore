@@ -1,0 +1,21 @@
+# https://support.xilinx.com/s/article/61232?language=en_US
+
+# Behaivor simulation
+/lab4.sim/
+
+# Synthesis & Implemtation
+/lab4.runs/
+
+# Hardware
+/lab4.hw/
+
+# Others
+/lab4.ip_user_files/
+/lab4.cache/
+/lab4.gen/
+
+# Binaries
+/bin/
+
+asm/*.coe
+asm/*.dat
